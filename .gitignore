@@ -1,5 +1,23 @@
+# JetBrains Rider / IntelliJ
+.idea/
+*.sln.iml
+*.DotSettings.user
+
+# Rider workspace
+*.user
+*.suo
+
+# Build results
 bin/
 obj/
-/packages/
-riderModule.iml
-/_ReSharper.Caches/
+
+# Rider caches
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# OS files
+.DS_Store
+Thumbs.db
