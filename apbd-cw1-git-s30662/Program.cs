@@ -12,3 +12,14 @@ double[] dodajWektory(double[] wektor1, double[] wektor2)
    }
    return result;
 }
+
+double[] odejmijWektory(double[] wektor1, double[] wektor2)
+{
+    int a = wektor1.Length > wektor2.Length ? wektor1.Length : wektor2.Length;
+    double[] result = new double[a];
+    for (int i = 0; i < a; i++)
+    {
+        result[i] = wektor1[i] - wektor2[i];
+    }
+    return result;
+}
